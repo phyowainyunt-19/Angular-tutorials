@@ -56,6 +56,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TestComponent implements OnInit {
 
+  //binding review
+
   public name = "Codevolution";
   public url = window.location.href;
   public myId = "testId";
