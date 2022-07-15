@@ -41,4 +41,6 @@ export class DepartmentListComponent implements OnInit {
   }
 
   isSelected(department) { return department.id === this.selectedId; }
+
+  // Routes reviewed
 }
