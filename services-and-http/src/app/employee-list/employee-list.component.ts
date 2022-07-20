@@ -11,7 +11,6 @@ import { EmployeeService } from './../employee.service';
     </ul>
   `,
   styles: []
-  // service reviewed
 })
 export class EmployeeListComponent implements OnInit {
 

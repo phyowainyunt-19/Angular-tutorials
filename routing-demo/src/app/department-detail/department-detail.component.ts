@@ -58,4 +58,6 @@ export class DepartmentDetailComponent implements OnInit {
   showContact(){
     this.router.navigate(['contact'], { relativeTo: this.route });
   }
+
+  // optional route parameters understood
 }
