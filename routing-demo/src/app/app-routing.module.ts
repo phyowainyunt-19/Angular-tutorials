@@ -11,6 +11,7 @@ import { DepartmentContactComponent } from './department-contact/department-cont
 const routes: Routes = [
   { path: '', redirectTo: '/departments', pathMatch: 'full' },
   { path: 'departments', component: DepartmentListComponent },
+  // Child Routes understood
   { 
     path: 'departments/:id', 
     component: DepartmentDetailComponent,
